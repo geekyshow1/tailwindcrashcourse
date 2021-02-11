@@ -1,0 +1,19 @@
+{
+  "name": "gs3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss ./src/tailwind.css -o ./public/tailwind.css",
+    "prod": "NODE_ENV=production postcss ./src/tailwind.css -o ./public/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.3",
+    "win-node-env": "^0.4.0"
+  }
+}
