@@ -84,19 +84,19 @@ npm install win-node-env
 <li>Open <b>package.json</b> File then write below script
   
 ```javascript
-  "scripts": {"prod": "NODE_ENV=production npx tailwindcss build ./src/tailwind.css -o ./public/tailwind.css“},
+"scripts": {"prod": "NODE_ENV=production npx tailwindcss build ./src/tailwind.css -o ./public/tailwind.css“},
 ```
 </li>
 <li>Include which file should be purged. Open <b>tailwind.config.js</b> file then write code
   
 ```javascript
-  purge:[‘./public/**/*.html’]
+purge:[‘./public/**/*.html’]
 ```
 </li>
 <li>Make your code Production Ready
   
 ```javascript
-  npm run prod
+npm run prod
 ```
 </li> <br>
 </ol>
@@ -191,19 +191,19 @@ npm install win-node-env
 <li>Open <b>package.json</b> File then write below script
   
 ```javascript
-  "scripts": {"prod": "NODE_ENV=production postcss ./src/tailwind.css -o ./public/tailwind.css“},
+"scripts": {"prod": "NODE_ENV=production postcss ./src/tailwind.css -o ./public/tailwind.css“},
 ```
 </li>
 <li>Include which file should be purged. Open <b>tailwind.config.js</b> file then write code
   
 ```javascript
-  purge:[‘./public/**/*.html’]
+purge:[‘./public/**/*.html’]
 ```
 </li>
 <li>Make your code Production Ready
   
 ```javascript
-  npm run prod
+npm run prod
 ```
 </li> <br>
 </ol>
